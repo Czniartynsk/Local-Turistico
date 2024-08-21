@@ -1,7 +1,122 @@
-/* * {
+*, div {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-} */
+}
 
+:root {
+  font-family: "Open Sans", sans-serif;
+}
 
+body {
+  margin: 0 auto;
+  padding: 88px 80px 48px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1B1B1B;
+}
+
+span {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e1624f;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  line-height: 49px;
+}
+
+img {
+  margin: 4px auto 20px;
+  border-radius: 28px;
+  width: 100%;
+}
+
+main img + p {
+  color: #333333;
+  font-style: italic;
+  text-align: center;
+
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d9d9d9;
+
+  margin: 4px auto 64px;
+}
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 8px;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+h2 + p {
+  margin-bottom: 60px;
+  color: #333333;
+}
+
+div > img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+h3 + p {
+  margin: 4px auto 30px;
+  color: #333333;
+}
+
+p + p {
+  font-weight: bold;
+  color: #333333;
+}
+
+.blue {
+  color: #0C51A7;
+  margin-bottom: 48px;
+}
+.purple {
+  color: #591B98;
+} 
+.pink {
+  color: #E5245E;
+} 
+.orange {
+  color: #E95E10;
+}
+
+ul li {
+  font-weight: 700;
+  margin-left: 24px;
+}
+
+div + p {
+  border-top: 1px solid #D9D9D9;
+  margin: 40px auto 65px;
+  padding-top: 40px;
+  text-align: center;
+  color: #333333;
+}
+
+footer, footer a {
+  font-family: "Alice", serif;
+  text-align: center;
+  color: #333333;
+  font-weight: 600;
+  line-height: 150%;
+}
